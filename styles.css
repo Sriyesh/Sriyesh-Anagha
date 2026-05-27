@@ -838,6 +838,24 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+.details.details--two {
+  grid-template-columns: 1fr 1px 1fr;
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.venue-link {
+  color: var(--gold-3);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(141, 110, 53, 0.35);
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.venue-link:hover {
+  color: var(--maroon);
+  border-color: rgba(122, 46, 42, 0.45);
+}
+
 .detail-divider {
   width: 1px;
   height: 70%;
