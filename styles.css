@@ -844,6 +844,49 @@ h1, h2, h3, h4 {
   margin-inline: auto;
 }
 
+.overline--reception {
+  font-size: 16px;
+  letter-spacing: 0.28em;
+  color: #6f625c;
+  margin-bottom: 24px;
+}
+
+.reception-details .detail-label {
+  font-size: 13px;
+  letter-spacing: 0.28em;
+}
+
+.reception-details .detail-main {
+  font-size: clamp(28px, 3.6vw, 36px);
+}
+
+.reception-details .detail-sub {
+  font-size: clamp(20px, 2.4vw, 24px);
+  color: #6f625c;
+}
+
+.reception-details .detail-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.reception-details .venue-link {
+  font-size: clamp(19px, 2.2vw, 22px);
+}
+
+.venue--reception .overline--reception {
+  margin-bottom: 16px;
+}
+
+.venue--reception h3 {
+  font-size: clamp(42px, 6.2vw, 60px);
+}
+
+.venue--reception .venue-sub {
+  font-size: clamp(22px, 2.8vw, 26px);
+  color: #5c524e;
+}
+
 .venue-link {
   color: var(--gold-3);
   text-decoration: none;
